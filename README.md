@@ -89,6 +89,13 @@ bitcoin-price-chart-visualiser/
 ├── main.py
 ├── requirements.txt
 ├── README.md
+├── .gitignore
 ├── screenshots/
-└── cache/
+│   ├── main-chart.png
+│   ├── dark-mode.png
+│   └── timeframe-view.png
+├── cache/
+│   └── .gitkeep
+└── exports/
+    └── .gitkeep
 ```
