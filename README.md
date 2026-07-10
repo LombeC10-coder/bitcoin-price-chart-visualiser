@@ -99,3 +99,17 @@ bitcoin-price-chart-visualiser/
 └── exports/
     └── .gitkeep
 ```
+
+## Screenshots
+
+### Main Chart View
+
+![Main Chart View](screenshots/main-chart.png)
+
+### Dark Mode
+
+![Dark Mode](screenshots/dark-mode.png)
+
+### Timeframe Controls
+
+![Timeframe Controls](screenshots/timeframe-view.png)
