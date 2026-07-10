@@ -1,5 +1,24 @@
-venv/
+/
+# Python
 __pycache__/
 *.pyc
-.DS_Store
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
 .env
+
+# Cache/output files
+cache/*
+!cache/.gitkeep
+exports/*
+!exports/.gitkeep
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
