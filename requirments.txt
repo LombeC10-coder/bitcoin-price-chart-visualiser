@@ -3,4 +3,4 @@ pandas
 mplfinance
 matplotlib
 pygame
-
+pytest
