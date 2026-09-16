@@ -10,6 +10,25 @@ The application allows users to view Bitcoin price movement across different tim
 
 This project helped me strengthen my practical experience with API integration, time-series financial data, data visualisation, caching, debugging and user-facing Python application development.
 
+## Data Analysis Case Study
+
+Alongside the interactive visualiser, this repository includes a Jupyter notebook that explores Bitcoin OHLC data using Python and Pandas. It reuses the application's API and indicator modules to demonstrate:
+
+- Data collection from an external REST API
+- Missing-value, duplicate, timestamp and price validation
+- Period-return and moving-average calculations
+- Rolling volatility and maximum-drawdown analysis
+- Evidence-based findings generated from the current API response
+- Clear discussion of analytical limitations
+
+[View the Bitcoin market analysis notebook](analysis/bitcoin_market_analysis.ipynb)
+
+To run it locally after installing the project dependencies:
+
+```bash
+jupyter notebook analysis/bitcoin_market_analysis.ipynb
+```
+
 ## Features
 
 - Fetches Bitcoin OHLC market data from the CoinGecko API
@@ -88,6 +107,8 @@ bitcoin-price-chart-visualiser/
 │
 ├── main.py
 ├── requirements.txt
+├── analysis/
+│   └── bitcoin_market_analysis.ipynb
 ├── README.md
 ├── .gitignore
 ├── screenshots/
